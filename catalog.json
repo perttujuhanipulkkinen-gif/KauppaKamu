@@ -245,10 +245,10 @@
     },
     {
       "id": "kaurajuoma",
-      "name": "kaurajuoma / kauramaito",
+      "name": "kaurajuoma",
       "category": "maitotuotteet",
       "unit": "l",
-      "aliases": [],
+      "aliases": ["kauramaito", "oatly"],
       "hidden": false
     },
     {
@@ -317,10 +317,10 @@
     },
     {
       "id": "ranskankerma",
-      "name": "ranskankerma / creme fraiche",
+      "name": "ranskankerma",
       "category": "maitotuotteet",
       "unit": "prk",
-      "aliases": [],
+      "aliases": ["creme fraiche"],
       "hidden": false
     },
     {
@@ -496,7 +496,7 @@
       "name": "kasvirasvalevite",
       "category": "maitotuotteet",
       "unit": "pkt",
-      "aliases": ["voileipämarganiiini"],
+      "aliases": ["voileipämargariini"],
       "hidden": false
     },
     {
@@ -504,7 +504,7 @@
       "name": "Oivariini®",
       "category": "maitotuotteet",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["voimariini"],
       "hidden": false
     },
     {
@@ -512,7 +512,7 @@
       "name": "juustopala",
       "category": "maitotuotteet",
       "unit": "pkt",
-      "aliases": ["palajuusto" , "juusto"],
+      "aliases": ["palajuusto", "juusto"],
       "hidden": false
     },
     {
@@ -581,10 +581,10 @@
     },
     {
       "id": "kananmunat",
-      "name": "kananmunat / munat",
+      "name": "kananmunat",
       "category": "maitotuotteet",
       "unit": "kenno",
-      "aliases": [],
+      "aliases": ["munat"],
       "hidden": false
     },
     {
@@ -648,7 +648,7 @@
       "name": "naudansuikaleet",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["suikalepaisti"],
       "hidden": false
     },
     {
@@ -669,10 +669,10 @@
     },
     {
       "id": "kana-kokonainen",
-      "name": "kana / broileri (kokonainen)",
+      "name": "broileri (kokonainen)",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": [kana],
       "hidden": false
     },
     {
