@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "timestamp": "2026-06-16T14:30:00Z",
   "units": [
     {"id": "kpl", "name": "kappale", "abbr": "kpl", "smallStep": 1, "largeStep": 5},
@@ -1581,10 +1581,10 @@
 
 
     {"id": "aa-paristot", "name": "AA-paristot", "category": "kodintarvikkeet", "unit": "pkt",
-     "aliases": [],
+     "aliases": ["patteri", "patterit"],
      "hidden": false},
     {"id": "aaa-paristot", "name": "AAA-paristot", "category": "kodintarvikkeet", "unit": "pkt",
-     "aliases": [],
+     "aliases": ["patteri","patterit"],
      "hidden": false},
     {"id": "akku", "name": "akku", "category": "kodintarvikkeet", "unit": "kpl",
      "aliases": [],
@@ -1773,7 +1773,7 @@
      "aliases": [],
      "hidden": false},
     {"id": "paristot", "name": "paristot", "category": "kodintarvikkeet", "unit": "pkt",
-     "aliases": [],
+     "aliases": ["patteri", "patterit"],
      "hidden": false},
     {"id": "pelletti", "name": "pelletti", "category": "kodintarvikkeet", "unit": "pussi",
      "aliases": [],
