@@ -4925,7 +4925,7 @@
     },
     {
       "id": "kasivoide",
-      "name": "käsivoide / käsirasva",
+      "name": "käsivoide",
       "category": "hygienia",
       "unit": "kpl",
       "aliases": [],
@@ -4941,10 +4941,10 @@
     },
     {
       "id": "jalkavoide",
-      "name": "jalkavoide / jalkarasva",
+      "name": "jalkavoide",
       "category": "hygienia",
       "unit": "kpl",
-      "aliases": [],
+      "aliases": ["jalkarasva"],
       "hidden": false
     },
     {
@@ -4952,7 +4952,7 @@
       "name": "aurinkovoide",
       "category": "hygienia",
       "unit": "kpl",
-      "aliases": [],
+      "aliases": ["aurinkorasva"],
       "hidden": false
     },
     {
@@ -5013,10 +5013,10 @@
     },
     {
       "id": "partavesi",
-      "name": "partavesi",
+      "name": "partavesi / after shave",
       "category": "hygienia",
       "unit": "kpl",
-      "aliases": [],
+      "aliases": ["after-shave", "aftershave"],
       "hidden": false
     },
     {
@@ -5028,11 +5028,41 @@
       "hidden": false
     },
     {
-      "id": "hajuvesi",
-      "name": "hajuvesi / Eau de toilette / kölninvesi / tuoksu",
+      "id": "eau-de-parfum",
+      "name": "hajuvesi (EDP)",
       "category": "hygienia",
       "unit": "kpl",
-      "aliases": [],
+      "aliases": [
+        "parfyymi"
+        "edp",
+        "eau de parfum",
+        "hajuvesi"
+      ],
+      "hidden": false
+    },
+    {
+      "id": "eau-de-toilette",
+      "name": "hajuvesi (EDT)",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [
+        "edt",
+        "eau de toilette",
+        "hajuvesi"
+      ],
+      "hidden": false
+    },
+    {
+      "id": "eau-de-cologne",
+      "name": "hajuvesi (EDC)",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [
+        "edc",
+        "kölninvesi",
+        "cologne",
+        "hajuvesi"
+      ],
       "hidden": false
     },
     {
