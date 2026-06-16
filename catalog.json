@@ -216,7 +216,7 @@
       "name": "täysmaito",
       "category": "maitotuotteet",
       "unit": "l",
-      "aliases": [],
+      "aliases": ["punainen maito"],
       "hidden": false
     },
     {
@@ -245,10 +245,10 @@
     },
     {
       "id": "soijajuoma",
-      "name": "soijajuoma / soijamaito",
+      "name": "soijajuoma",
       "category": "maitotuotteet",
       "unit": "l",
-      "aliases": [],
+      "aliases": ["soijamaito"],
       "hidden": false
     },
     {
@@ -256,7 +256,7 @@
       "name": "mantelijuoma",
       "category": "maitotuotteet",
       "unit": "l",
-      "aliases": [],
+      "aliases": ["mantelimaito"],
       "hidden": false
     },
     {
@@ -429,31 +429,31 @@
     },
     {
       "id": "fetajuusto",
-      "name": "fetajuusto / salaattijuusto",
+      "name": "fetajuusto",
       "category": "maitotuotteet",
       "unit": "prk",
-      "aliases": [],
+      "aliases": ["salaattijuusto"],
       "hidden": false
     },
     {
       "id": "mozzarellajuusto",
-      "name": "mozzarellajuusto",
+      "name": "mozzarella",
       "category": "maitotuotteet",
       "unit": "prk",
       "aliases": [],
       "hidden": false
     },
     {
-      "id": "parmesaani",
-      "name": "parmesaani / parmesaaniraaste",
+      "id": "parmesaanijuusto",
+      "name": "parmesaani",
       "category": "maitotuotteet",
       "unit": "prk",
-      "aliases": [],
+      "aliases": ["Parmigiano-Reggiano"],
       "hidden": false
     },
     {
       "id": "halloumijuusto",
-      "name": "halloumijuusto / grillijuusto",
+      "name": "halloumijuusto",
       "category": "maitotuotteet",
       "unit": "prk",
       "aliases": [],
@@ -476,8 +476,8 @@
       "hidden": false
     },
     {
-      "id": "margariini",
-      "name": "margariini",
+      "id": "leivontamargariini",
+      "name": "leivontamargariini",
       "category": "maitotuotteet",
       "unit": "pkt",
       "aliases": [],
@@ -488,23 +488,23 @@
       "name": "kasvirasvalevite",
       "category": "maitotuotteet",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["voileipämarganiiini"],
       "hidden": false
     },
     {
       "id": "oivariini",
-      "name": "Oivariini",
+      "name": "Oivariini®",
       "category": "maitotuotteet",
       "unit": "pkt",
       "aliases": [],
       "hidden": false
     },
     {
-      "id": "juusto",
-      "name": "juusto / juustopala",
+      "id": "juustopala",
+      "name": "juustopala",
       "category": "maitotuotteet",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["palajuusto" , "juusto"],
       "hidden": false
     },
     {
@@ -512,7 +512,7 @@
       "name": "juustoviipaleet",
       "category": "maitotuotteet",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["viipalejuusto", "juustoviipale"],
       "hidden": false
     },
     {
@@ -525,10 +525,10 @@
     },
     {
       "id": "juustoraaste",
-      "name": "juustoraaste / pizzajuusto",
+      "name": "juustoraaste",
       "category": "maitotuotteet",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["pizzaraaste", "pizzajuusto", "pitsajuusto", "pitsaraaste"],
       "hidden": false
     },
     {
@@ -536,7 +536,7 @@
       "name": "edamjuusto",
       "category": "maitotuotteet",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["edam"],
       "hidden": false
     },
     {
@@ -544,7 +544,7 @@
       "name": "goudajuusto",
       "category": "maitotuotteet",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["gouda"],
       "hidden": false
     },
     {
@@ -557,7 +557,7 @@
     },
     {
       "id": "oltermanni",
-      "name": "oltermanni",
+      "name": "Oltermanni®",
       "category": "maitotuotteet",
       "unit": "pkt",
       "aliases": [],
@@ -616,7 +616,7 @@
       "name": "jauheliha (kana / broileri)",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["kanajauheliha"],
       "hidden": false
     },
     {
@@ -629,10 +629,10 @@
     },
     {
       "id": "naudanliha",
-      "name": "naudanliha / naudan paisti",
+      "name": "naudanliha",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["naudan paisti"],
       "hidden": false
     },
     {
@@ -645,10 +645,10 @@
     },
     {
       "id": "porsaanliha",
-      "name": "porsaanliha / sianliha",
+      "name": "porsaanliha",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["sianliha", "possunliha"],
       "hidden": false
     },
     {
@@ -672,7 +672,7 @@
       "name": "kananrinta / broilerifilee",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["kanafilee"],
       "hidden": false
     },
     {
@@ -685,10 +685,10 @@
     },
     {
       "id": "broilerin-siivet",
-      "name": "broilerin siivet / wings",
+      "name": "broilerin siivet",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": [Wings"],
       "hidden": false
     },
     {
@@ -725,15 +725,15 @@
     },
     {
       "id": "poronliha",
-      "name": "poronliha / riistaliha",
+      "name": "poronliha",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["riistaliha"],
       "hidden": false
     },
     {
-      "id": "lohi",
-      "name": "lohi / lohifilee",
+      "id": "lohifilee",
+      "name": "lohifilee",
       "category": "liha",
       "unit": "pkt",
       "aliases": [],
@@ -836,19 +836,11 @@
       "hidden": false
     },
     {
-      "id": "makkara",
-      "name": "makkara / lenkkimakkara",
+      "id": "lenkkimakkara",
+      "name": "lenkkimakkara",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [],
-      "hidden": false
-    },
-    {
-      "id": "grillimakkara",
-      "name": "grillimakkara",
-      "category": "liha",
-      "unit": "pkt",
-      "aliases": [],
+      "aliases": ["grillimakkara"],
       "hidden": false
     },
     {
@@ -856,20 +848,20 @@
       "name": "nakit",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [],
+      "aliases": ["nakki"],
       "hidden": false
     },
     {
-      "id": "leikkele",
-      "name": "leikkele",
+      "id": "kalkkunaleikkele",
+      "name": "kalkkunaleikkele",
       "category": "liha",
       "unit": "pkt",
       "aliases": [],
       "hidden": false
     },
     {
-      "id": "kinkku",
-      "name": "kinkku / kinkkuleikkele",
+      "id": "kinkkuleikkele",
+      "name": "kinkkuleikkele",
       "category": "liha",
       "unit": "pkt",
       "aliases": [],
