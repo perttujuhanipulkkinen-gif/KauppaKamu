@@ -1,1 +1,5104 @@
-
+{
+  "version": "1.0.0",
+  "units": [
+    {
+      "id": "kpl",
+      "name": "kappale",
+      "abbr": "kpl",
+      "smallStep": 1,
+      "largeStep": 5
+    },
+    {
+      "id": "l",
+      "name": "litra",
+      "abbr": "l",
+      "smallStep": 0.5,
+      "largeStep": 1
+    },
+    {
+      "id": "dl",
+      "name": "desilitra",
+      "abbr": "dl",
+      "smallStep": 0.5,
+      "largeStep": 1
+    },
+    {
+      "id": "kg",
+      "name": "kilogramma",
+      "abbr": "kg",
+      "smallStep": 0.1,
+      "largeStep": 0.5
+    },
+    {
+      "id": "g",
+      "name": "gramma",
+      "abbr": "g",
+      "smallStep": 50,
+      "largeStep": 200
+    },
+    {
+      "id": "pkt",
+      "name": "paketti",
+      "abbr": "pkt",
+      "smallStep": 1,
+      "largeStep": 3
+    },
+    {
+      "id": "prk",
+      "name": "purkki",
+      "abbr": "prk",
+      "smallStep": 1,
+      "largeStep": 3
+    },
+    {
+      "id": "pll",
+      "name": "pullo",
+      "abbr": "pll",
+      "smallStep": 1,
+      "largeStep": 3
+    },
+    {
+      "id": "tlk",
+      "name": "tölkki",
+      "abbr": "tlk",
+      "smallStep": 1,
+      "largeStep": 3
+    },
+    {
+      "id": "pussi",
+      "name": "pussi",
+      "abbr": "pussi",
+      "smallStep": 1,
+      "largeStep": 3
+    },
+    {
+      "id": "rasia",
+      "name": "rasia",
+      "abbr": "rasia",
+      "smallStep": 1,
+      "largeStep": 3
+    },
+    {
+      "id": "kenno",
+      "name": "kenno",
+      "abbr": "kenno",
+      "smallStep": 1,
+      "largeStep": 2
+    },
+    {
+      "id": "nippu",
+      "name": "nippu",
+      "abbr": "nippu",
+      "smallStep": 1,
+      "largeStep": 3
+    },
+    {
+      "id": "tuubi",
+      "name": "tuubi",
+      "abbr": "tuubi",
+      "smallStep": 1,
+      "largeStep": 2
+    },
+    {
+      "id": "rulla",
+      "name": "rulla",
+      "abbr": "rulla",
+      "smallStep": 1,
+      "largeStep": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "maitotuotteet",
+      "name": "Maitotuotteet, munat ja rasvat",
+      "icon": "cup-water",
+      "color": "#5BB6E3",
+      "defaultUnit": "prk"
+    },
+    {
+      "id": "liha",
+      "name": "Tuore liha, kana ja kala",
+      "icon": "food-steak",
+      "color": "#D26458",
+      "defaultUnit": "pkt"
+    },
+    {
+      "id": "vihannekset",
+      "name": "Vihannekset, hedelmät ja yrtit",
+      "icon": "fruit-watermelon",
+      "color": "#5BAE6E",
+      "defaultUnit": "kpl"
+    },
+    {
+      "id": "leipa",
+      "name": "Leipä, leivonta ja kuivatuotteet",
+      "icon": "bread-slice",
+      "color": "#C48F50",
+      "defaultUnit": "pkt"
+    },
+    {
+      "id": "mausteet",
+      "name": "Mausteet, öljyt ja kastikkeet",
+      "icon": "shaker-outline",
+      "color": "#A85544",
+      "defaultUnit": "prk"
+    },
+    {
+      "id": "sailykkeet",
+      "name": "Säilykkeet ja purkkiruoat",
+      "icon": "food-variant",
+      "color": "#C9923B",
+      "defaultUnit": "prk"
+    },
+    {
+      "id": "juomat",
+      "name": "Juomat ja mehukeitot",
+      "icon": "bottle-soda-classic",
+      "color": "#7E62C7",
+      "defaultUnit": "pll"
+    },
+    {
+      "id": "pakasteet",
+      "name": "Pakasteet ja valmisruoat",
+      "icon": "snowflake",
+      "color": "#6FB8CF",
+      "defaultUnit": "pkt"
+    },
+    {
+      "id": "herkut",
+      "name": "Herkut ja naposteltavat",
+      "icon": "cookie",
+      "color": "#E58FAE",
+      "defaultUnit": "pkt"
+    },
+    {
+      "id": "kodintarvikkeet",
+      "name": "Kodintarvikkeet, lemmikit ja siivous",
+      "icon": "spray-bottle",
+      "color": "#7AA77A",
+      "defaultUnit": "kpl"
+    },
+    {
+      "id": "hygienia",
+      "name": "Hygienia, apteekki ja kauneus",
+      "icon": "shower",
+      "color": "#C778C7",
+      "defaultUnit": "kpl"
+    }
+  ],
+  "products": [
+    {
+      "id": "maito",
+      "name": "maito",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "rasvaton-maito",
+      "name": "rasvaton maito",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kevytmaito",
+      "name": "kevytmaito",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "taysmaito",
+      "name": "täysmaito",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "laktoositon-maito",
+      "name": "laktoositon maito",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "luomumaito",
+      "name": "luomumaito",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kaurajuoma",
+      "name": "kaurajuoma / kauramaito",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "soijajuoma",
+      "name": "soijajuoma / soijamaito",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mantelijuoma",
+      "name": "mantelijuoma",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kefiiri",
+      "name": "kefiiri",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "piima",
+      "name": "piimä",
+      "category": "maitotuotteet",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kerma",
+      "name": "kerma",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vispikerma",
+      "name": "vispikerma",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ruokakerma",
+      "name": "ruokakerma",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kuohukerma",
+      "name": "kuohukerma",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ranskankerma",
+      "name": "ranskankerma / creme fraiche",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "smetana",
+      "name": "smetana",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kermavaahto",
+      "name": "kermavaahto",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vaniljakastike",
+      "name": "vaniljakastike",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jogurtti",
+      "name": "jogurtti",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vaniljajogurtti",
+      "name": "vaniljajogurtti",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "marjajogurtti",
+      "name": "marjajogurtti",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kreikkalainen-jogurtti",
+      "name": "kreikkalainen jogurtti",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "turkkilainen-jogurtti",
+      "name": "turkkilainen jogurtti",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "viili",
+      "name": "viili",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "rahka",
+      "name": "rahka",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "maustettu-rahka",
+      "name": "maustettu rahka",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "raejuusto",
+      "name": "raejuusto",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tuorejuusto",
+      "name": "tuorejuusto",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sulatejuusto",
+      "name": "sulatejuusto",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "fetajuusto",
+      "name": "fetajuusto / salaattijuusto",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mozzarellajuusto",
+      "name": "mozzarellajuusto",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "parmesaani",
+      "name": "parmesaani / parmesaaniraaste",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "halloumijuusto",
+      "name": "halloumijuusto / grillijuusto",
+      "category": "maitotuotteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "voi",
+      "name": "voi",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suolaton-voi",
+      "name": "suolaton voi",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "margariini",
+      "name": "margariini",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kasvirasvalevite",
+      "name": "kasvirasvalevite",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "oivariini",
+      "name": "Oivariini",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "juusto",
+      "name": "juusto / juustopala",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "juustoviipaleet",
+      "name": "juustoviipaleet",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sulatejuustoviipale",
+      "name": "sulatejuustoviipale",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "juustoraaste",
+      "name": "juustoraaste / pizzajuusto",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "edamjuusto",
+      "name": "edamjuusto",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "goudajuusto",
+      "name": "goudajuusto",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "emmental",
+      "name": "emmental",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "oltermanni",
+      "name": "oltermanni",
+      "category": "maitotuotteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "juokseva-rasva",
+      "name": "juokseva rasva",
+      "category": "maitotuotteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kananmunat",
+      "name": "kananmunat / munat",
+      "category": "maitotuotteet",
+      "unit": "kenno",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "luomukananmunat",
+      "name": "luomukananmunat",
+      "category": "maitotuotteet",
+      "unit": "kenno",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jauheliha-nauta",
+      "name": "jauheliha (nauta)",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jauheliha-sika-nauta",
+      "name": "jauheliha (sika-nauta)",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jauheliha-sika",
+      "name": "jauheliha (sika / possu)",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jauheliha-kana",
+      "name": "jauheliha (kana / broileri)",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jauheliha-karitsa",
+      "name": "jauheliha (karitsa)",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "naudanliha",
+      "name": "naudanliha / naudan paisti",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "naudansuikaleet",
+      "name": "naudansuikaleet",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "porsaanliha",
+      "name": "porsaanliha / sianliha",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "porsaanfilee",
+      "name": "porsaanfilee / possunfilee",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kana-kokonainen",
+      "name": "kana / broileri (kokonainen)",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kananrinta",
+      "name": "kananrinta / broilerifilee",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kanan-koipi",
+      "name": "kanan koipi / broilerin koipireisi",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "broilerin-siivet",
+      "name": "broilerin siivet / wings",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "broilerin-suikaleet",
+      "name": "broilerin suikaleet",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kalkkuna",
+      "name": "kalkkuna",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kalkkunafilee",
+      "name": "kalkkunafilee",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lammas",
+      "name": "lammas / karitsanliha",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "poronliha",
+      "name": "poronliha / riistaliha",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lohi",
+      "name": "lohi / lohifilee",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kirjolohi",
+      "name": "kirjolohi",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "savulohi",
+      "name": "savulohi / lämminsavulohi",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kylmasavulohi",
+      "name": "kylmäsavulohi",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "graavilohi",
+      "name": "graavilohi",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "silakka",
+      "name": "silakka / silakkafilee",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "muikku",
+      "name": "muikku",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ahven",
+      "name": "ahven",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hauki",
+      "name": "hauki",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "seiti",
+      "name": "seiti / kalafilee",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "makrilli",
+      "name": "makrilli",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "katkaravut",
+      "name": "katkaravut",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "simpukat",
+      "name": "simpukat",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "makkara",
+      "name": "makkara / lenkkimakkara",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "grillimakkara",
+      "name": "grillimakkara",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "nakit",
+      "name": "nakit",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "leikkele",
+      "name": "leikkele",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kinkku",
+      "name": "kinkku / kinkkuleikkele",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pekoni",
+      "name": "pekoni",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pekonikuutiot",
+      "name": "pekonikuutiot",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "salami",
+      "name": "salami",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "meetvursti",
+      "name": "meetvursti / metvursti / meetwursti",
+      "category": "liha",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "banaani",
+      "name": "banaani",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "omena",
+      "name": "omena",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kotimainen-omena",
+      "name": "kotimainen omena",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "paaryna",
+      "name": "päärynä",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "appelsiini",
+      "name": "appelsiini",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mandariini",
+      "name": "mandariini",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "klementiini",
+      "name": "klementiini / satsuma",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sitruuna",
+      "name": "sitruuna",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lime",
+      "name": "lime",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ananas",
+      "name": "ananas",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kiivi",
+      "name": "kiivi",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vesimeloni",
+      "name": "vesimeloni",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hunajameloni",
+      "name": "hunajameloni",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "cantaloupemeloni",
+      "name": "cantaloupemeloni",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "persikka",
+      "name": "persikka",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "nektariini",
+      "name": "nektariini",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "aprikoosi",
+      "name": "aprikoosi",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "luumu",
+      "name": "luumu",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "avokado",
+      "name": "avokado",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tomaatti",
+      "name": "tomaatti",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kirsikkatomaatti",
+      "name": "kirsikkatomaatti",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "luumutomaatti",
+      "name": "luumutomaatti",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kurkku",
+      "name": "kurkku",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "bataatti",
+      "name": "bataatti",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punasipuli",
+      "name": "punasipuli",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "valkosipuli",
+      "name": "valkosipuli",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "purjo",
+      "name": "purjo",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "paprika",
+      "name": "paprika",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punainen-paprika",
+      "name": "punainen paprika",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "keltainen-paprika",
+      "name": "keltainen paprika",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vihrea-paprika",
+      "name": "vihreä paprika",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "chili-tuore",
+      "name": "chili / tuore chili",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tuore-jalapeno",
+      "name": "tuore jalapeno",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "salaatti",
+      "name": "salaatti / ruukkusalaatti",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jaasalaatti",
+      "name": "jääsalaatti",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jaavuorisalaatti",
+      "name": "jäävuorisalaatti",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "parsakaali",
+      "name": "parsakaali / broccoli",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kukkakaali",
+      "name": "kukkakaali",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kaali",
+      "name": "kaali / valkokaali",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punakaali",
+      "name": "punakaali",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lanttu",
+      "name": "lanttu",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "nauris",
+      "name": "nauris",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "palsternakka",
+      "name": "palsternakka",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "selleri",
+      "name": "selleri / varsiselleri",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kesakurpitsa",
+      "name": "kesäkurpitsa",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "munakoiso",
+      "name": "munakoiso",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "herneet",
+      "name": "herneet / herneenpalko",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "papu",
+      "name": "papu / vihreät pavut",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kantarelli",
+      "name": "kantarelli",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "inkivaari-tuore",
+      "name": "inkivääri",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "yrttipotti",
+      "name": "yrttipotti",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "basilika-tuore",
+      "name": "basilika (tuore)",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "persilja-tuore",
+      "name": "persilja (tuore)",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tilli-tuore",
+      "name": "tilli (tuore)",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "korianteri-tuore",
+      "name": "korianteri (tuore)",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mansikka",
+      "name": "mansikka",
+      "category": "vihannekset",
+      "unit": "rasia",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mustikka",
+      "name": "mustikka / pensasmustikka",
+      "category": "vihannekset",
+      "unit": "rasia",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vadelma",
+      "name": "vadelma",
+      "category": "vihannekset",
+      "unit": "rasia",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "viinirypale",
+      "name": "viinirypäle",
+      "category": "vihannekset",
+      "unit": "rasia",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kirsikka",
+      "name": "kirsikka",
+      "category": "vihannekset",
+      "unit": "rasia",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "rucola",
+      "name": "rucola",
+      "category": "vihannekset",
+      "unit": "rasia",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pinaatti",
+      "name": "pinaatti",
+      "category": "vihannekset",
+      "unit": "rasia",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "herkkusieni",
+      "name": "herkkusieni",
+      "category": "vihannekset",
+      "unit": "rasia",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "puolukka",
+      "name": "puolukka",
+      "category": "vihannekset",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "karpalo",
+      "name": "karpalo",
+      "category": "vihannekset",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "porkkana",
+      "name": "porkkana",
+      "category": "vihannekset",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "peruna",
+      "name": "peruna",
+      "category": "vihannekset",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "uusi-peruna",
+      "name": "uusi peruna",
+      "category": "vihannekset",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sipuli",
+      "name": "sipuli / keltasipuli",
+      "category": "vihannekset",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ruohosipuli",
+      "name": "ruohosipuli",
+      "category": "vihannekset",
+      "unit": "nippu",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kevatsipuli",
+      "name": "kevätsipuli",
+      "category": "vihannekset",
+      "unit": "nippu",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "retiisi",
+      "name": "retiisi",
+      "category": "vihannekset",
+      "unit": "nippu",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "parsa",
+      "name": "parsa",
+      "category": "vihannekset",
+      "unit": "nippu",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punajuuri-tuore",
+      "name": "punajuuri (tuore)",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punajuurikimppu",
+      "name": "punajuurikimppu",
+      "category": "vihannekset",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ruisleipa",
+      "name": "ruisleipä / ruispalat",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vehnaleipa",
+      "name": "vehnäleipä",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vaalea-leipa",
+      "name": "vaalea leipä",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "paahtoleipa",
+      "name": "paahtoleipä",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kauraleipa",
+      "name": "kauraleipä",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "moniviljaleipa",
+      "name": "moniviljaleipä",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "palaleipa",
+      "name": "palaleipä / sämpylä",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kaurapuuro",
+      "name": "kaurapuuro / kaurahiutaleet",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "eloveena",
+      "name": "eloveena",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ruishiutaleet",
+      "name": "ruishiutaleet",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ohrahiutaleet",
+      "name": "ohrahiutaleet",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kuivahiiva",
+      "name": "kuivahiiva",
+      "category": "leipa",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "patonki",
+      "name": "patonki",
+      "category": "leipa",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ciabatta",
+      "name": "ciabatta",
+      "category": "leipa",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "croissant",
+      "name": "croissant",
+      "category": "leipa",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pulla",
+      "name": "pulla",
+      "category": "leipa",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "korvapuusti",
+      "name": "korvapuusti",
+      "category": "leipa",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pitko",
+      "name": "pitko",
+      "category": "leipa",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "donitsi",
+      "name": "donitsi",
+      "category": "leipa",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "munkki",
+      "name": "munkki",
+      "category": "leipa",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "riisi",
+      "name": "riisi",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jasmiiniriisi",
+      "name": "jasmiiniriisi",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "basmatiriisi",
+      "name": "basmatiriisi",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "puuroriisi",
+      "name": "puuroriisi",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vehnajauho",
+      "name": "vehnäjauho",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ruisjauho",
+      "name": "ruisjauho",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kaurajauho",
+      "name": "kaurajauho",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "grahamjauho",
+      "name": "grahamjauho",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "spelttijauho",
+      "name": "spelttijauho",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sokeri",
+      "name": "sokeri",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "palasokeri",
+      "name": "palasokeri",
+      "category": "leipa",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "leivinjauhe",
+      "name": "leivinjauhe",
+      "category": "leipa",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ruokasooda",
+      "name": "ruokasooda",
+      "category": "leipa",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vaniljasokeri",
+      "name": "vaniljasokeri",
+      "category": "leipa",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "nakkileipa",
+      "name": "näkkileipä",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hapankorppu",
+      "name": "hapankorppu",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "korppu",
+      "name": "korppu",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sokerikorppu",
+      "name": "sokerikorppu",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tortilla",
+      "name": "tortilla / wrap",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pitaleipa",
+      "name": "pitaleipä",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pizzapohja",
+      "name": "pizzapohja",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "piirakkapohja",
+      "name": "piirakkapohja",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pasta",
+      "name": "pasta",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "makaroni",
+      "name": "makaroni",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "spagetti",
+      "name": "spagetti",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tagliatelle",
+      "name": "tagliatelle",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "penne",
+      "name": "penne",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "fusilli",
+      "name": "fusilli",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lasagnelevyt",
+      "name": "lasagnelevyt",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "nuudelit",
+      "name": "nuudelit / pikanuudelit",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "couscous",
+      "name": "couscous",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "bulgur",
+      "name": "bulgur",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kvinoa",
+      "name": "kvinoa",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mysli",
+      "name": "mysli",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "granola",
+      "name": "granola",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "murot",
+      "name": "murot / aamiaismurot",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "maissimurot",
+      "name": "maissimurot / cornflakes",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "riisimurot",
+      "name": "riisimurot",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suklaamurot",
+      "name": "suklaamurot",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hunajamurot",
+      "name": "hunajamurot",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mannasuurimot",
+      "name": "mannasuurimot",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ohrasuurimot",
+      "name": "ohrasuurimot",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "perunajauho",
+      "name": "perunajauho",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "maissitarkkelys",
+      "name": "maissitärkkelys / maizena",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "soijarouhe",
+      "name": "soijarouhe",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "leseet",
+      "name": "leseet / kauralese",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "korppujauho",
+      "name": "korppujauho",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tuorehiiva",
+      "name": "tuorehiiva",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "fariinisokeri",
+      "name": "fariinisokeri",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tomusokeri",
+      "name": "tomusokeri",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ruskeasokeri",
+      "name": "ruskeasokeri",
+      "category": "leipa",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suola",
+      "name": "suola",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "merisuola",
+      "name": "merisuola",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sormisuola",
+      "name": "sormisuola",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mustapippuri",
+      "name": "mustapippuri (jauhettu)",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mustapippurirouhe",
+      "name": "mustapippurirouhe",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "valkopippuri",
+      "name": "valkopippuri",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pippurisekoitus",
+      "name": "pippurisekoitus",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "chilijauhe",
+      "name": "chilijauhe",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "cayennepippuri",
+      "name": "cayennepippuri",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "chiliflakes",
+      "name": "chiliflakes / chilirouhe",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "paprikajauhe",
+      "name": "paprikajauhe",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "savupaprika",
+      "name": "savupaprika",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "valkosipulijauhe",
+      "name": "valkosipulijauhe",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sipulijauhe",
+      "name": "sipulijauhe",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kaneli",
+      "name": "kaneli",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kardemumma",
+      "name": "kardemumma",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "neilikka",
+      "name": "neilikka",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "muskottipahkina",
+      "name": "muskottipähkinä",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "inkivaari-jauhe",
+      "name": "inkivääri (jauhe)",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kuminajauhe",
+      "name": "kuminajauhe / juustokumina",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "korianteri-jauhe",
+      "name": "korianteri (jauhe)",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "currymauste",
+      "name": "currymauste",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kurkuma",
+      "name": "kurkuma",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "garam-masala",
+      "name": "garam masala",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "oregano",
+      "name": "oregano",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "timjami",
+      "name": "timjami",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "rosmariini",
+      "name": "rosmariini",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "salvia",
+      "name": "salvia",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "laakerinlehti",
+      "name": "laakerinlehti",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "meirami",
+      "name": "meirami",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pizzamauste",
+      "name": "pizzamauste",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "grillimauste",
+      "name": "grillimauste",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "yrttisuola",
+      "name": "yrttisuola",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "aromisuola",
+      "name": "aromisuola",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lihamauste",
+      "name": "lihamauste",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "broilerimauste",
+      "name": "broilerimauste",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kalamauste",
+      "name": "kalamauste",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ranskanyrtit",
+      "name": "ranskanyrtit",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sinappi",
+      "name": "sinappi",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "dijon-sinappi",
+      "name": "dijon-sinappi",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "majoneesi",
+      "name": "majoneesi",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "aioli",
+      "name": "valkosipulimajoneesi / aioli",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "chilimajoneesi",
+      "name": "chilimajoneesi",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pestokastike",
+      "name": "pestokastike",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "valkosipulipesto",
+      "name": "valkosipulipesto",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tomaattikastike",
+      "name": "tomaattikastike",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "caesar-kastike",
+      "name": "caesar-kastike",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tzatziki",
+      "name": "tzatziki",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "strosselit",
+      "name": "piparkakkujen koristelutarvikkeet / strösselit",
+      "category": "mausteet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tacomauste",
+      "name": "tacomauste",
+      "category": "mausteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "liemikuutio-nauta",
+      "name": "liemikuutio (nauta)",
+      "category": "mausteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "liemikuutio-kana",
+      "name": "liemikuutio (kana)",
+      "category": "mausteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "liemikuutio-kasvis",
+      "name": "liemikuutio (kasvis)",
+      "category": "mausteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "bearnaise-kastike",
+      "name": "bearnaise-kastike",
+      "category": "mausteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hollandaise-kastike",
+      "name": "hollandaise-kastike",
+      "category": "mausteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "etikka",
+      "name": "etikka",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "balsamiviinietikka",
+      "name": "balsamiviinietikka / balsamico",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "omenaviinietikka",
+      "name": "omenaviinietikka",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "rypsioljy",
+      "name": "rypsiöljy / rapsiöljy",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "oliivioljy",
+      "name": "oliiviöljy",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "auringonkukkaoljy",
+      "name": "auringonkukkaöljy",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "seesamioljy",
+      "name": "seesamiöljy",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ketsuppi",
+      "name": "ketsuppi",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ranskankastike",
+      "name": "ranskankastike",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "salaattikastike",
+      "name": "salaattikastike",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kebab-kastike",
+      "name": "kebab-kastike",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "bbq-kastike",
+      "name": "bbq-kastike",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "chilikastike",
+      "name": "chilikastike",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sriracha",
+      "name": "sriracha",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tabasco",
+      "name": "tabasco",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "soijakastike",
+      "name": "soijakastike",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "osterikastike",
+      "name": "osterikastike",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kalakastike",
+      "name": "kalakastike",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "worcestershire-kastike",
+      "name": "worcestershire-kastike",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sweet-chili-kastike",
+      "name": "sweet chili -kastike",
+      "category": "mausteet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suolakurkku",
+      "name": "suolakurkku",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "maustekurkku",
+      "name": "maustekurkku",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "cocktailkurkku",
+      "name": "cocktailkurkku",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kurkkusalaatti",
+      "name": "kurkkusalaatti",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tomaattipyree",
+      "name": "tomaattipyree",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tomaattimurska",
+      "name": "tomaattimurska",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punajuuri-sailyke",
+      "name": "punajuuri (säilyke)",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punajuurikuutio",
+      "name": "punajuurikuutio",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punajuuriraaste",
+      "name": "punajuuriraaste",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "etikkapunajuuri",
+      "name": "etikkapunajuuri",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punajuurisalaatti",
+      "name": "punajuurisalaatti",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punajuurilisake",
+      "name": "punajuurilisäke",
+      "category": "sailykkeet",
+      "unit": "prk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hernekeitto-sailyke",
+      "name": "hernekeitto",
+      "category": "sailykkeet",
+      "unit": "tlk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kahvi",
+      "name": "kahvi / suodatinkahvi",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "juhla-mokka",
+      "name": "juhla mokka",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "espressojauhe",
+      "name": "espressojauhe",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kahvipavut",
+      "name": "kahvipavut",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pikakahvi",
+      "name": "pikakahvi",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tee",
+      "name": "tee / pussitee",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vihrea-tee",
+      "name": "vihreä tee",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "musta-tee",
+      "name": "musta tee",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "yrttitee",
+      "name": "yrttitee",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kaakao",
+      "name": "kaakao / kaakaojauhe",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "rooibostee",
+      "name": "rooibostee",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "makutee",
+      "name": "makutee",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "teevalikoima",
+      "name": "teevalikoima",
+      "category": "juomat",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "omenamehu",
+      "name": "omenamehu",
+      "category": "juomat",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "appelsiinimehu",
+      "name": "appelsiinimehu",
+      "category": "juomat",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tuoremehu",
+      "name": "tuoremehu",
+      "category": "juomat",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mansikkamehu",
+      "name": "mansikkamehu",
+      "category": "juomat",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "marjamehu",
+      "name": "marjamehu",
+      "category": "juomat",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mustikkakeitto",
+      "name": "mustikkakeitto",
+      "category": "juomat",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mehukeitto",
+      "name": "mehukeitto",
+      "category": "juomat",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mehukeitto-mustikka",
+      "name": "mehukeitto (mustikka)",
+      "category": "juomat",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mehukeitto-vadelma",
+      "name": "mehukeitto (vadelma)",
+      "category": "juomat",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mehukeitto-mansikka",
+      "name": "mehukeitto (mansikka)",
+      "category": "juomat",
+      "unit": "l",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pillimehu",
+      "name": "pillimehu / trip",
+      "category": "juomat",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mehu",
+      "name": "mehu / mehutiiviste",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mehukatti",
+      "name": "mehukatti",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vesi",
+      "name": "vesi",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lahdevesi",
+      "name": "lähdevesi",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kivennaisvesi",
+      "name": "kivennäisvesi / kuplavesi",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vichy",
+      "name": "vichy",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "novelle",
+      "name": "novelle",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "limu",
+      "name": "limu / virvoitusjuoma",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kola",
+      "name": "kola / coca-cola",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jaffa",
+      "name": "jaffa",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "energiajuoma",
+      "name": "energiajuoma",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "urheilujuoma",
+      "name": "urheilujuoma",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kotikalja",
+      "name": "kotikalja",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "olut",
+      "name": "olut / lager",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "alkoholiton-olut",
+      "name": "alkoholiton olut",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pilsneri",
+      "name": "pilsneri",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ipa",
+      "name": "IPA / APA",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "siideri",
+      "name": "siideri / omenasiideri",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lonkero",
+      "name": "long drink / lonkero",
+      "category": "juomat",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "maksalaatikko",
+      "name": "maksalaatikko",
+      "category": "pakasteet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lihapullat",
+      "name": "lihapullat / valmislihapullat",
+      "category": "pakasteet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lihapyorykat",
+      "name": "lihapyörykät (valmis)",
+      "category": "pakasteet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jauhelihapihvi",
+      "name": "jauhelihapihvi (valmis)",
+      "category": "pakasteet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pizzaslice",
+      "name": "pizzaslice",
+      "category": "pakasteet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "roiskelappa",
+      "name": "roiskeläppä / mikropizza",
+      "category": "pakasteet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jaatelotuutti",
+      "name": "jäätelötuutti",
+      "category": "pakasteet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jaatelotikku",
+      "name": "jäätelötikku",
+      "category": "pakasteet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mehujaa",
+      "name": "mehujää",
+      "category": "pakasteet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hernekeitto-pakaste",
+      "name": "hernekeitto",
+      "category": "pakasteet",
+      "unit": "tlk",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastevihannekset",
+      "name": "pakastevihannekset",
+      "category": "pakasteet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "wok-vihannekset",
+      "name": "wok-vihannekset",
+      "category": "pakasteet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakasteherneet",
+      "name": "pakasteherneet",
+      "category": "pakasteet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastemaissi",
+      "name": "pakastemaissi",
+      "category": "pakasteet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakasteparsakaali",
+      "name": "pakasteparsakaali / broccoli",
+      "category": "pakasteet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakasteperuna",
+      "name": "pakasteperuna",
+      "category": "pakasteet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ranskanperunat",
+      "name": "ranskanperunat",
+      "category": "pakasteet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lohkoperunat",
+      "name": "lohkoperunat",
+      "category": "pakasteet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakasteleipa",
+      "name": "pakasteleipä",
+      "category": "pakasteet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastesampylat",
+      "name": "pakastesämpylät",
+      "category": "pakasteet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "riisipiirakka",
+      "name": "riisipiirakka / karjalanpiirakka",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "nugetit",
+      "name": "nugetit",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "valmiskeitto",
+      "name": "valmiskeitto",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pinaattilettu",
+      "name": "pinaattilettu / pinaattiohukainen",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "porkkanalettu",
+      "name": "porkkanalettu / porkkanaohukainen",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jaatelo",
+      "name": "jäätelö / jäätelöpaketti",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vaniljajaatelo",
+      "name": "vaniljajäätelö",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suklaajaatelo",
+      "name": "suklaajäätelö",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mansikkajaatelo",
+      "name": "mansikkajäätelö",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mutakakku",
+      "name": "mutakakku",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suklaakakku-pakaste",
+      "name": "suklaakakku (pakaste)",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mansikkakakku-pakaste",
+      "name": "mansikkakakku (pakaste)",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "juustokakku-pakaste",
+      "name": "juustokakku (pakaste)",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "daim-kakku-manteli",
+      "name": "daim-kakku (manteli)",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "daim-kakku-mousse",
+      "name": "daim-kakku (mousse)",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastemarjat",
+      "name": "pakastemarjat",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastemansikka",
+      "name": "pakastemansikka",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastevadelma",
+      "name": "pakastevadelma",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastemustikka",
+      "name": "pakastemustikka",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakasteherukka",
+      "name": "pakasteherukka",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastekala",
+      "name": "pakastekala",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lohifilee-pakaste",
+      "name": "lohifilee (pakaste)",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kalapuikko",
+      "name": "kalapuikko",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kalapihvi-pakaste",
+      "name": "kalapihvi (pakaste)",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastepizza",
+      "name": "pakastepizza / grandiosa",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastelasagne",
+      "name": "pakastelasagne",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastekiusaus",
+      "name": "pakastekiusaus",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastepiirakka",
+      "name": "pakastepiirakka",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakasteleivos",
+      "name": "pakasteleivos",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastepulla",
+      "name": "pakastepulla",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastevoitaikina",
+      "name": "pakastevoitaikina",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lehtitaikina",
+      "name": "lehtitaikina",
+      "category": "pakasteet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suklaapatukka",
+      "name": "suklaapatukka",
+      "category": "herkut",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "purukumi",
+      "name": "purukumi",
+      "category": "herkut",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kakku",
+      "name": "kakku",
+      "category": "herkut",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "leivos",
+      "name": "leivos",
+      "category": "herkut",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "irtokarkki",
+      "name": "irtokarkki",
+      "category": "herkut",
+      "unit": "kg",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sipsit",
+      "name": "sipsit / perunalastut",
+      "category": "herkut",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "juustosipsit",
+      "name": "juustosipsit",
+      "category": "herkut",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tortillachipsit",
+      "name": "tortillachipsit / nachot",
+      "category": "herkut",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "maapahkinat",
+      "name": "maapähkinät",
+      "category": "herkut",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suolapahkinat",
+      "name": "suolapähkinät",
+      "category": "herkut",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "cashewpahkina",
+      "name": "cashewpähkinä",
+      "category": "herkut",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pahkinasekoitus",
+      "name": "pähkinäsekoitus",
+      "category": "herkut",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "manteli",
+      "name": "manteli",
+      "category": "herkut",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "dippijauhe",
+      "name": "dippijauhe / dippi",
+      "category": "herkut",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suklaa",
+      "name": "suklaa",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "maitosuklaa",
+      "name": "maitosuklaa",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tumma-suklaa",
+      "name": "tumma suklaa",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "valkosuklaa",
+      "name": "valkosuklaa",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suklaalevy",
+      "name": "suklaalevy / fazer sininen",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "karkki",
+      "name": "karkki / karkkipussi",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "salmiakki",
+      "name": "salmiakki",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lakritsi",
+      "name": "lakritsi",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vaahtokarkit",
+      "name": "vaahtokarkit / vaahtomakeinen",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "marmeladi",
+      "name": "marmeladi",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hillo",
+      "name": "hillo",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pastillit",
+      "name": "pastillit",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kakkupohja",
+      "name": "kakkupohja",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "keksit",
+      "name": "keksit",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suklaakeksit",
+      "name": "suklaakeksit",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kaurakeksit",
+      "name": "kaurakeksit",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "piparkakut",
+      "name": "piparkakut",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vohvelit",
+      "name": "vohvelit",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "naposteltava",
+      "name": "naposteltava",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "popcorn",
+      "name": "popcorn / mikropopcorn",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "salsadippi",
+      "name": "salsadippi",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hunaja",
+      "name": "hunaja",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "siirappi",
+      "name": "siirappi",
+      "category": "herkut",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "wc-paperi",
+      "name": "wc-paperi",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "talouspaperi",
+      "name": "talouspaperi",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "paperipyyhe",
+      "name": "paperipyyhe",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "nenaliinat",
+      "name": "nenäliinat",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kasvopaperi",
+      "name": "kasvopaperi",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lautasliina",
+      "name": "lautasliina / servetti",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "konetiskitabletit",
+      "name": "konetiskitabletit",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pyykinpesujauhe",
+      "name": "pyykinpesujauhe",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "paistopussi",
+      "name": "paistopussi",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sailytyspussi",
+      "name": "säilytyspussi",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pakastuspussit",
+      "name": "pakastuspussit",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "minigrip-pussit",
+      "name": "minigrip-pussit",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tuikkukynttila",
+      "name": "tuikkukynttilä",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tulitikut",
+      "name": "tulitikut",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "paristot",
+      "name": "paristot",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "aa-paristot",
+      "name": "AA-paristot",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "aaa-paristot",
+      "name": "AAA-paristot",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "nappiparisto",
+      "name": "nappiparisto",
+      "category": "kodintarvikkeet",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "astianpesuaine",
+      "name": "astianpesuaine / fairy",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "huuhtelukirkaste",
+      "name": "huuhtelukirkaste",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pyykinpesuneste",
+      "name": "pyykinpesuneste",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "huuhteluaine",
+      "name": "huuhteluaine",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pyykkietikka",
+      "name": "pyykkietikka",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "yleispuhdistusaine",
+      "name": "yleispuhdistusaine",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lattianpesuaine",
+      "name": "lattianpesuaine",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ikkunanpesuaine",
+      "name": "ikkunanpesuaine / lasinpesuaine",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suihkunpuhdistusaine",
+      "name": "suihkunpuhdistusaine",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "wc-puhdistusaine",
+      "name": "wc-puhdistusaine",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "uuninpuhdistusaine",
+      "name": "uuninpuhdistusaine",
+      "category": "kodintarvikkeet",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "roskapussit",
+      "name": "roskapussit",
+      "category": "kodintarvikkeet",
+      "unit": "rulla",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "biojatepussit",
+      "name": "biojätepussit",
+      "category": "kodintarvikkeet",
+      "unit": "rulla",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jatesakki",
+      "name": "jätesäkki",
+      "category": "kodintarvikkeet",
+      "unit": "rulla",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "leivinpaperi",
+      "name": "leivinpaperi",
+      "category": "kodintarvikkeet",
+      "unit": "rulla",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tuorekelmu",
+      "name": "tuorekelmu / tarjoilukelmu",
+      "category": "kodintarvikkeet",
+      "unit": "rulla",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "alumiinifolio",
+      "name": "alumiinifolio",
+      "category": "kodintarvikkeet",
+      "unit": "rulla",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lahjapaperi",
+      "name": "lahjapaperi",
+      "category": "kodintarvikkeet",
+      "unit": "rulla",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "koirankakkapussit",
+      "name": "koirankakkapussit",
+      "category": "kodintarvikkeet",
+      "unit": "rulla",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kissanhiekka",
+      "name": "kissanhiekka",
+      "category": "kodintarvikkeet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pelletti",
+      "name": "pelletti",
+      "category": "kodintarvikkeet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kukkamulta",
+      "name": "kukkamulta",
+      "category": "kodintarvikkeet",
+      "unit": "pussi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "konetiskiaine",
+      "name": "konetiskiaine",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pesukoneen-puhdistusaine",
+      "name": "pesukoneen puhdistusaine",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pyykinpesuaine",
+      "name": "pyykinpesuaine",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tahranpoistoaine",
+      "name": "tahranpoistoaine",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "siivousliina",
+      "name": "siivousliina / tiskirätti",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "mikrokuituliina",
+      "name": "mikrokuituliina",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lattialiina",
+      "name": "lattialiina",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pesusieni",
+      "name": "pesusieni",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "taikasieni",
+      "name": "taikasieni",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hankaussieni",
+      "name": "hankaussieni",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "terasvilla",
+      "name": "teräsvilla",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kynttila",
+      "name": "kynttilä",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sytkari",
+      "name": "sytkäri / sytytin",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sytytyspalat",
+      "name": "sytytyspalat",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "ilmanraikastin",
+      "name": "ilmanraikastin",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "wc-tuoksu",
+      "name": "wc-tuoksu",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "akku",
+      "name": "akku",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lamppu",
+      "name": "lamppu",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "led-lamppu",
+      "name": "LED-lamppu",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "halogeenilamppu",
+      "name": "halogeenilamppu",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jatkojohto",
+      "name": "jatkojohto",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "taskulamppu",
+      "name": "taskulamppu",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "teippi",
+      "name": "teippi",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "maalarinteippi",
+      "name": "maalarinteippi",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "paketointiteippi",
+      "name": "paketointiteippi",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kyna",
+      "name": "kynä",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lyijykyna",
+      "name": "lyijykynä",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tussit",
+      "name": "tussit",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kuulakarkikyna",
+      "name": "kuulakärkikynä",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vihko",
+      "name": "vihko",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "muistilappu",
+      "name": "muistilappu",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "postimerkki",
+      "name": "postimerkki",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kirjekuori",
+      "name": "kirjekuori",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kortti",
+      "name": "kortti",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lahjarusetti",
+      "name": "lahjarusetti",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lahjanaru",
+      "name": "lahjanaru",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "koiranruoka",
+      "name": "koiranruoka",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "koiran-kuivaruoka",
+      "name": "koiran kuivaruoka / raksut",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "koiran-markaruoka",
+      "name": "koiran märkäruoka",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "koiran-herkut",
+      "name": "koiran herkut",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "koiran-puruluu",
+      "name": "koiran puruluu",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kissanruoka",
+      "name": "kissanruoka",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kissan-kuivaruoka",
+      "name": "kissan kuivaruoka / raksut",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kissan-markaruoka",
+      "name": "kissan märkäruoka / pussit",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "lannoite",
+      "name": "lannoite",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kasviravinne",
+      "name": "kasviravinne",
+      "category": "kodintarvikkeet",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hammastahna",
+      "name": "hammastahna",
+      "category": "hygienia",
+      "unit": "tuubi",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sahkohammasharjan-vaihtopaa",
+      "name": "sähköhammasharjan vaihtopää",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hammastikku",
+      "name": "hammastikku",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hammasvaliharja",
+      "name": "hammasväliharja",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hammaslankain",
+      "name": "hammaslankain",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "partaterat",
+      "name": "partaterät",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kertakayttohoyla",
+      "name": "kertakäyttöhöylä",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tekokynnet",
+      "name": "tekokynnet",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tekoripset",
+      "name": "tekoripset",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "laastari",
+      "name": "laastari",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "rakkolaastari",
+      "name": "rakkolaastari",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "sideharso",
+      "name": "sideharso",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vanulappu",
+      "name": "vanulappu",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vanupuikot",
+      "name": "vanupuikot",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vanutuppi",
+      "name": "vanutuppi",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "terveyssiteet",
+      "name": "terveyssiteet",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "tamponit",
+      "name": "tamponit",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "pikkuhousunsuojat",
+      "name": "pikkuhousunsuojat",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "inkontinenssisuoja",
+      "name": "inkontinenssisuoja",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "inkontinenssivaippa",
+      "name": "inkontinenssivaippa",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kondomi",
+      "name": "kondomi",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vauvanvaippa",
+      "name": "vauvanvaippa / vaipat",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vauvanpyyhe",
+      "name": "vauvanpyyhe / kosteuspyyhe",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "palasaippua",
+      "name": "palasaippua",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "saippuan-tayttopussi",
+      "name": "saippuan täyttöpussi",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hiuslenkit",
+      "name": "hiuslenkit",
+      "category": "hygienia",
+      "unit": "pkt",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suuvesi",
+      "name": "suuvesi",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "shampoo",
+      "name": "shampoo",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hiustenhoitoaine",
+      "name": "hiustenhoitoaine",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hopeashampoo",
+      "name": "hopeashampoo",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "suihkugeeli",
+      "name": "suihkugeeli / suihkusaippua",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "nestesaippua",
+      "name": "nestesaippua / käsisaippua",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kasvovesi",
+      "name": "kasvovesi",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "after-sun",
+      "name": "after sun",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kynsilakanpoistoaine",
+      "name": "kynsilakanpoistoaine",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hiuslakka",
+      "name": "hiuslakka / hiuskiinne",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kuivashampoo",
+      "name": "kuivashampoo",
+      "category": "hygienia",
+      "unit": "pll",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hammasharja",
+      "name": "hammasharja",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hammaslanka",
+      "name": "hammaslanka",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kielenpuhdistin",
+      "name": "kielenpuhdistin",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hiusgeeli",
+      "name": "hiusgeeli",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hiusvaha",
+      "name": "hiusvaha",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "muotoiluvaahto",
+      "name": "muotoiluvaahto",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kampa",
+      "name": "kampa",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hiusharja",
+      "name": "hiusharja",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "saippua",
+      "name": "saippua",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kuorinta-aine",
+      "name": "kuorinta-aine",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kasvojenpesuaine",
+      "name": "kasvojenpesuaine",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kosteusvoide",
+      "name": "kosteusvoide",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kasvovoide",
+      "name": "kasvovoide",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kasivoide",
+      "name": "käsivoide / käsirasva",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "vartalovoide",
+      "name": "vartalovoide",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "jalkavoide",
+      "name": "jalkavoide / jalkarasva",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "aurinkovoide",
+      "name": "aurinkovoide",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "huulirasva",
+      "name": "huulirasva",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "deodorantti",
+      "name": "deodorantti / antiperspirantti / roll-on",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "parranajogeeli",
+      "name": "parranajogeeli",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "partavaahto",
+      "name": "partavaahto",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "partavoide",
+      "name": "partavoide",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "partavaha",
+      "name": "partavaha",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "partaoljy",
+      "name": "partaöljy",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "partavesi",
+      "name": "partavesi",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "partahoyla",
+      "name": "partahöylä",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hajuvesi",
+      "name": "hajuvesi / Eau de toilette / kölninvesi / tuoksu",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "talkki",
+      "name": "talkki",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kynsilakka",
+      "name": "kynsilakka",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kynsiviila",
+      "name": "kynsiviila",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kuukautiskuppi",
+      "name": "kuukautiskuppi",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "kuukautissuoja",
+      "name": "kuukautissuoja",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "liukuvoide",
+      "name": "liukuvoide",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "hyttyskarkote",
+      "name": "hyttyskarkote",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    },
+    {
+      "id": "punkkisuihke",
+      "name": "punkkisuihke",
+      "category": "hygienia",
+      "unit": "kpl",
+      "aliases": [],
+      "hidden": false
+    }
+  ],
+  "timestamp": "2025-06-15T12:00:00Z"
+}
