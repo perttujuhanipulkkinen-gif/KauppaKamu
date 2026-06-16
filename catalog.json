@@ -1,5 +1,5 @@
 {
-  "version": "1.4.3",
+  "version": "1.4.4",
   "timestamp": "2026-06-16T17:00:00Z",
   "units": [
     {"id": "kpl", "name": "kappale", "abbr": "kpl", "smallStep": 1, "largeStep": 5},
@@ -153,7 +153,10 @@
      "aliases": [],
      "hidden": false},
     {"id": "soijajuoma", "name": "soijajuoma", "category": "maitotuotteet", "unit": "l",
-     "aliases": ["soijamaito"],
+     "aliases": ["soijamaito", "alpro"],
+     "hidden": false},
+    {"id": "soijajogurtti", "name": "soijajogurtti", "category": "maitotuotteet", "unit": "prk",
+     "aliases": ["alpro"],
      "hidden": false},
     {"id": "sulatejuusto", "name": "sulatejuusto", "category": "maitotuotteet", "unit": "prk",
      "aliases": [],
