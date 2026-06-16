@@ -688,7 +688,7 @@
       "name": "broilerin siivet",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [Wings"],
+      "aliases": ["wings"],
       "hidden": false
     },
     {
