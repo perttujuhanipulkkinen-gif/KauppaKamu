@@ -1652,7 +1652,7 @@
     {"id": "ilmanraikastin", "name": "ilmanraikastin", "category": "kodintarvikkeet", "unit": "kpl",
      "aliases": [],
      "hidden": false},
-    {"id": "inkontinenssihousut", "name": "inkontinenssihousut", "category": "kodintarvikkeet", "unit": "pkt",
+    {"id": "inkontinenssihousut", "name": "inkontinenssihousut", "category": "hygienia", "unit": "pkt",
      "aliases": ["aikuisten housuvaippa", "aikuisten vaippa", "suojavaippa", "inkontinenssi housut", "aikuisten vaippahousu", "protective underwear"],
      "hidden": false},
     {"id": "jatkojohto", "name": "jatkojohto", "category": "kodintarvikkeet", "unit": "kpl",
