@@ -1625,11 +1625,9 @@
     {"id": "grilliastiat", "name": "grilliastiat", "category": "kodintarvikkeet", "unit": "pkt",
      "aliases": [],
      "hidden": false},
-    {
-      "id": "grillihiilet", "name": "grillihiilet", "category": "kodintarvikkeet", "unit": "pussi",
+    {"id": "grillihiilet", "name": "grillihiilet", "category": "kodintarvikkeet", "unit": "pussi",
       "aliases": ["hiili", "grillihiili", "puuhiili", "charcoal"],
-      "hidden": false
-    }
+      "hidden": false},
     {"id": "halogeenilamppu", "name": "halogeenilamppu", "category": "kodintarvikkeet", "unit": "kpl",
      "aliases": [],
      "hidden": false},
