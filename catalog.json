@@ -672,7 +672,7 @@
       "name": "broileri (kokonainen)",
       "category": "liha",
       "unit": "pkt",
-      "aliases": [kana],
+      "aliases": ["kana"],
       "hidden": false
     },
     {
