@@ -1,5 +1,5 @@
 {
-  "version": "1.4.2",
+  "version": "1.4.3",
   "timestamp": "2026-06-16T17:00:00Z",
   "units": [
     {"id": "kpl", "name": "kappale", "abbr": "kpl", "smallStep": 1, "largeStep": 5},
