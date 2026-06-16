@@ -192,7 +192,7 @@
       "name": "testituote",
       "category": "maitotuotteet",
       "unit": "l",
-      "aliases": ["testinpoikanen", "jekkutesti","kikkatuote", "höpö"],
+      "aliases": ["testinpoikanen", "jekkutesti", "kikkatuote", "höpötuote"],
       "hidden": false
     },   
     {
